@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './styles.css'
+import './styles.css';
 
 export const FirstApp = ({title, subTitle, name}) => {
   return (
@@ -12,7 +12,8 @@ export const FirstApp = ({title, subTitle, name}) => {
 }
 
 FirstApp.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     subTitle: PropTypes.string,
-    name: PropTypes.string,
+    name: PropTypes.string
 }
+
