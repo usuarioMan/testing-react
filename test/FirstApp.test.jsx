@@ -3,6 +3,10 @@ import { FirstApp } from "../src/FirstApp";
 
 describe('Pruebas en FirstApp', () => {
     test('debe hacer match con el snapchot', () => {
-        render( <FirstApp title="Hola"/> )
+        const {container} = render(
+        <FirstApp title='Pote' subTitle='SubPote'/>
+        )
+        expect(container).toMatchSnapshot();
+         
     });
 });
