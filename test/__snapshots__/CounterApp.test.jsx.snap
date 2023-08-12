@@ -9,13 +9,19 @@ exports[`Test en CounterApp Esta prueba debe coincidir con el snapshot 1`] = `
     <div>
       420
     </div>
-    <button>
+    <button
+      aria-label="rest-btn"
+    >
       -1
     </button>
-    <button>
+    <button
+      aria-label="plus-btn"
+    >
       +1
     </button>
-    <button>
+    <button
+      aria-label="reset-btn"
+    >
       Reset
     </button>
   </div>
